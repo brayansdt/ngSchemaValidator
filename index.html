@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="validatorExampleApp">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <title>
+            Utilizando ngSchemaValidator
+        </title>
+
+        <!--BASIC VENDORS-->
+        <link rel="stylesheet" href="bower_components/angular/angular-csp.css"/>
+        <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"/>
+        <script src="bower_components/angular/angular.js"></script>
+        <script src="bower_components/angular-route/angular-route.js"></script>
+        <!--/BASIC VENDORS-->
+
+        <!--SchemaValidator-->
+        <script src="dist/tv4/tv4.js"></script>
+        <script src="dist/tv4/tv4_setup_br.js"></script>
+        <script src="dist/schemaValidator.js"></script>
+        <!--SchemaValidator-->
+
+        <script src="app/validatorApp/controller/mainController.js"></script>
+        <script src="app/validatorApp/init.js"></script>
+    </head>
+    <body>
+        <div class="container">
+            <ng-view class="row"></ng-view>
+        </div>
+    </body>
+</html>

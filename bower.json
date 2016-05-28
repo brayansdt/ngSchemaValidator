@@ -1,0 +1,29 @@
+{
+  "name": "ngSchemaValidator",
+  "homepage": "https://github.com/brayansdt/ngSchemaValidator",
+  "authors": [
+    "Brayan Dichtl <brayandt@gmail.com>"
+  ],
+  "description": "Angular directive for validation using tv4.",
+  "main": "app/ngSchemaValidator.js",
+  "keywords": [
+    "tv4",
+    "jsonSchema",
+    "json",
+    "validation",
+    "schema",
+    "angularJs"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "~1.5.6",
+    "angular-route": "~1.5.6"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "title": "User",
+  "type": "object",
+  "$schema": "http:\/\/json-schema.org\/draft-04\/schema#",
+  "properties": {
+    "name": {
+      "type": "string",
+      "maxLength": 200,
+      "title": "Nome"
+    },
+    "email": {
+      "type": "string",
+      "maxLength": 20,
+      "title": "Email"
+    },
+    "password": {
+      "type": "string",
+      "maxLength": 20,
+      "title": "Senha"
+    },
+    "required": {
+      "type": "boolean",
+      "maxLength": 20
+    }
+  },
+  "required": [
+    "name",
+    "abbreviation",
+    "required"
+  ]
+}
