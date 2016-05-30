@@ -4,3 +4,4 @@ Angular Service which encapsulates javascript object validation against a json s
 
 ##dependencies
  - [tv4](https://github.com/geraintluff/tv4)
+
